@@ -1,0 +1,29 @@
+.card{
+    width: 80%;
+    height: auto; 
+    background: #FF3FA4;
+    margin-top: 1rem;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(83, 2, 63, 0.2);
+    border-radius: 5px;
+    position: relative; 
+    /* backdrop-filter: blur(10px); */
+}
+
+  .taskHeader {
+    display: flex;
+    font-size: 20px; /* Adjust the font size as needed */
+  }
+  
+  .taskInfo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  .button {
+    width: 1.5rem;
+    height: 1.5rem; 
+
+  }
+ 

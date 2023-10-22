@@ -13,8 +13,12 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        marhey: ['var(--font-marhey)'],
+        raleway:['var(--font-raleway)']
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
 export default config
